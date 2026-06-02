@@ -205,7 +205,7 @@ async function closeTicket() {
     const res = await fetch(`/api/tickets/${ticketId}`, {
       method:  'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body:    JSON.stringify({ status: 'closed' }),
+      body: JSON.stringify({ status: 'Closed' }),
     });
 
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
