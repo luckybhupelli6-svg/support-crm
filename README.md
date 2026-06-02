@@ -2,9 +2,9 @@
 
 A full-stack customer support ticketing system built with Node.js, Express, and SQLite. Create and manage support tickets, search and filter by status, update ticket details, and add internal notes.
 
-Live Demo: https://support-crm-ugry.onrender.com
-**GitHub:** [github.com/luckybhupelli6-svg/support-crm](https://github.com/luckybhupelli6-svg/support-crm)
----
+**Live Demo:** https://support-crm-ugry.onrender.com
+
+**GitHub Repository:** https://github.com/luckybhupelli6-svg/support-crm
 
 ## Features
 
