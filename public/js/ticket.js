@@ -213,8 +213,8 @@ async function closeTicket() {
     const data    = await res.json();
     currentTicket = data.ticket || data;
 
-    document.getElementById('edit-status').value             = 'closed';
-    document.getElementById('detail-status-badge').innerHTML = statusBadge('closed');
+    document.getElementById('edit-status').value             = 'Closed';
+    document.getElementById('detail-status-badge').innerHTML = statusBadge('Closed');
     document.getElementById('detail-updated').textContent    = formatDate(currentTicket.updated_at);
 
     showToast('Ticket closed', 'success');
